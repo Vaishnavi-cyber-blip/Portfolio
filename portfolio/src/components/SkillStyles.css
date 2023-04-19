@@ -1,0 +1,93 @@
+.skills{
+    width: 100%;
+    padding: 5rem 1rem;
+    background: black;    
+}
+
+h1{
+    text-align: center;
+    padding: 0rem 1rem 3rem 2rem;
+}
+
+.card-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px
+}
+
+.card {
+    width: 250px;
+    height: 200px;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 10px 10px 20px rgb(25, 25, 25),
+                -5px -5px 10px rgb(60, 60, 60);
+   }
+   
+   
+
+/* .card{
+    border: 1px solid #eee;
+    color: #eee;
+    text-align: center;
+    padding: 1rem;
+} */
+
+.card:hover{
+    background-color: #141414;
+
+}
+
+.btc{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 2rem ;
+}
+
+.bt{
+    align-items: center;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: 0;
+  border: 0;
+  padding: 1rem;
+    
+}
+
+.bt::before{
+    background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin-right: 10px;
+  transition: all .42s cubic-bezier(.25,.8,.25,1);
+  width: 0;
+
+}
+
+.bt:hover::before{
+    background-color: #fff;
+    width: 3rem;
+}
+
+@media screen and (max-width: 740px) {
+    .card-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 40px
+    
+    }
+    
+}
+  

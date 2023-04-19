@@ -1,0 +1,71 @@
+.work-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+  }
+
+  .head1{
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 3rem;
+    font-size: 2rem;
+  }
+  
+  .job {
+    display: flex;
+    /* align-items: center; */
+    margin-top: 30px;
+    border-left: 5px solid #0077ff;
+    padding-left: 20px;
+  }
+  
+  .company-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+    background-color: #ffffff;
+  }
+  
+  .company-logo img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .job-details {
+    flex: 1;
+  }
+  
+  .job h3 {
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .company {
+    color: #fffbfb;
+    font-style: italic;
+  }
+  
+  .date {
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .responsibilities {
+    margin-top: 20px;
+    margin-left: 30px;
+    list-style: disc;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  
+  .responsibilities li {
+    margin-bottom: 10px;
+  }
+  
