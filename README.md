@@ -1,4 +1,4 @@
 # Portfolio
-Coded in Next.js react framework
+Interactive Personal portfolio website showcasing my skills.
 
-visit my potfolio : https://vaishnavi-portfolio1.netlify.app/
+visit my portfolio: https://vaishnavi-portfolio1.netlify.app/
